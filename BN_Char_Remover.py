@@ -5,8 +5,8 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 def main():
     print("Program: Char Remover")
-    print("Release: 0.1.0")
-    print("Date: 2019-02-07")
+    print("Release: 0.1.1")
+    print("Date: 2019-03-26")
     print("Author: Brian Neely")
     print()
     print()
@@ -126,7 +126,6 @@ def open_file(file_in, encoder, delimination):
         return "Encode Error"
 
     return data
-
 
 
 if __name__ == '__main__':
